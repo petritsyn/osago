@@ -1,11 +1,17 @@
 @media (max-width: 1160px) {
     .container {
-        width: 95%;
+        width: 96%;
+    }
+
+   
+
+    .header__content img {
+        display: none;
     }
   }
 
-@media (max-width: 600px) {
-    .container {
-        width: 95%;
+  @media (max-width: 760px) {
+    .header__content {
+        flex-direction: column;
     }
   }

@@ -3,31 +3,80 @@ html, body {
     margin: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-/*----------------------header-----------------------*/
+/*------------------------header-------------------------*/
 
 header {
+    background-color: #f5f6f7;
+}
+
+.header__top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
-    margin: 10px;
+    padding-top: 10px;
 }
 
-header span:nth-child(1) {
+.header__top span:nth-child(1) {
     color: grey;
 }
 
-header span:nth-last-child(1) {
+.header__top span:nth-last-child(1) {
     font-weight: bold;
 }
 
-header a {
+.header__top a {
     color: black;
     text-decoration: none;
     font-weight: bold;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__content div img {
+    margin-bottom: -106px;
+}
+
+.header__content p:nth-child(1) {
+    font-size: 1.6em;
+}
+
+.feedback {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.feedback__header {
+    background-color: #fedd2d;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback form {
+    width: 280px;
+}
+
+.feedback input {
+    width: 100%;
+}
+
+.header__content img {
+    
 }
