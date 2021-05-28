@@ -120,3 +120,14 @@ header {
 .social-icons a {
     margin-bottom: 10px;
 }
+
+/*----------------------e-osago-description-----------------------*/
+
+h2, h3, p {
+    text-align: center;
+}
+
+.e-osago-description {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
