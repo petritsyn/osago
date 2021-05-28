@@ -136,8 +136,13 @@ header {
 
 /*-----------------------------guide------------------------------*/
 
+.guide {
+    margin-bottom: 50px;
+}
+
 .guide h2 {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .guide__content {
