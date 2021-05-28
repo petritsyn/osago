@@ -42,15 +42,26 @@ header {
 .header__content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin-top: 20px;
 }
 
-.header__content div img {
-    margin-bottom: -106px;
+.header__content h2 {
+    margin-top: 60px;
+    margin-bottom: 30px;
 }
 
-.header__content p:nth-child(1) {
-    font-size: 1.6em;
+.header__content div .man {
+    padding-top: 80px;
+}
+
+.header__content button {
+    height: 50px;
+    width: 250px;
+    background-color: #fedd2d;
+    border: 0;
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 30px;
 }
 
 /*------------------------feedback-form-------------------------*/
@@ -59,7 +70,6 @@ header {
     width: 300px;
     height: 400px;
     background-color: white;
-    margin-top: 20px;
     margin-bottom: 30px;
     box-shadow: 0 0 15px #a9a9a9;
 }
@@ -88,8 +98,25 @@ header {
     border: 0;
     background-color: #f5f6f7;
     border-radius: 8px;
+    padding-left: 10px;
 }
 
 .feedback form .submit {
     background-color: #fedd2d;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.social-icons img {
+    width: 30px;
+}
+
+.social-icons a {
+    margin-bottom: 10px;
 }
