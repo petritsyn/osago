@@ -123,11 +123,41 @@ header {
 
 /*----------------------e-osago-description-----------------------*/
 
-h2, h3, p {
+.e-osago-description h2,
+.e-osago-description h3,
+.e-osago-description p {
     text-align: center;
 }
 
 .e-osago-description {
     padding-top: 30px;
     padding-bottom: 50px;
+}
+
+/*-----------------------------guide------------------------------*/
+
+.guide h2 {
+    text-align: center;
+}
+
+.guide__content {
+    display: flex;
+}
+
+.guide-items {
+    display: flex;
+    width: 100%;
+}
+
+.guide-items div {
+    width: 50%;
+}
+
+.guide-items div p {
+    text-align: center;
+}
+
+.guide-items div img {
+    display: block;
+    margin: auto;
 }

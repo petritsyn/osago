@@ -41,4 +41,20 @@
         padding-top: 0;
         padding-bottom: 20px;
     }
+
+    .guide__content {
+        display: block;
+    }
+
+    .guide__content img {
+        width: 30%;
+    }
+
+    .guide-items div {
+        padding: 10px;
+    }
+
+    .guide-items p {
+        font-size: 0.9em;
+    }
   }
