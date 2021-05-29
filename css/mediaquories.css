@@ -1,6 +1,6 @@
 @media (max-width: 1160px) {
     .container {
-        width: 96%;
+        width: 94%;
     }
     
     .header__content img {
@@ -80,5 +80,13 @@
 
     .contacts {
         width: 100%;
+    }
+
+    footer .container {
+        width: 100%;
+    }
+
+    .contacts {
+        padding-right: 0;
     }
   }
