@@ -57,4 +57,16 @@
     .guide-items p {
         font-size: 0.9em;
     }
+
+    .experience__content {
+        flex-direction: column;
+    }
+
+    .experience__items {
+        width: 100%;
+    }
+
+    .experience__item {
+        min-height: 100px;
+    }
   }

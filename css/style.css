@@ -173,3 +173,40 @@ header {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+/*---------------------------experience----------------------------*/
+
+.experience h2 {
+    text-align: center;
+}
+
+.experience__content {
+    display: flex;
+    padding-top: 30px;
+}
+
+.experience__items {
+    width: 50%;
+}
+
+.experience__item {
+    display: flex;
+    height: 33.3%;
+}
+
+.experience__item img {
+    width: 70px;
+    height: 70px;
+}
+
+.experience__item p {
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.experience__item p:nth-child(1) {
+    font-weight: bold;
+    font-size: 1.1em;
+}
