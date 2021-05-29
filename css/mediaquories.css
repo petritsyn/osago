@@ -73,4 +73,12 @@
     .partners {
         margin-top: 40px;
     }
+
+    footer {
+        background-image: none;
+    }
+
+    .contacts {
+        width: 100%;
+    }
   }
