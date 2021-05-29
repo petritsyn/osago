@@ -210,3 +210,17 @@ header {
     font-weight: bold;
     font-size: 1.1em;
 }
+
+/*---------------------------partners----------------------------*/
+
+.partners {
+    margin-top: 80px;
+}
+
+.partners h2 {
+    text-align: center;
+}
+
+.partners img {
+    max-width: 100%;
+}
