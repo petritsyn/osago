@@ -107,6 +107,16 @@ header {
     font-size: 1em;
 }
 
+.feedback form p {
+    text-align: center;
+}
+
+.contact-form__message {
+    text-align: center;
+}
+
+/*------------------------social icons-------------------------*/
+
 .social-icons {
     display: flex;
     flex-direction: column;

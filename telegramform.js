@@ -18,15 +18,15 @@
         success: function success(res) {
           let respond = $.parseJSON(res);
           if (respond.err) {
-            message.html(respond.err).css('color','#d42121');
+            message.html(respond.err).css({'color':'#d42121', 'text-align' : 'center', 'margin': '0'});
             setTimeout(()=> {
               message.text('');
-            }, 3000);
+            }, 5000);
           } else if(respond.okSend) {
-            message.html(respond.okSend).css('color','#21d4bb');
+            message.html(respond.okSend).css({'color':'#21d4bb', 'text-align' : 'center', 'margin': '0'});
             setTimeout(()=> {
               message.text('');
-            }, 3000);
+            }, 5000);
           } else {
             alert ('Необработанная ошибка. Проверьте консоль и устраните.');
           }
