@@ -39,11 +39,13 @@
 
                 <div class='feedback'>
                     <div class="feedback__header">ОСТАВИТЬ ЗАЯВКУ</div>
-                    <form action="#">
-                        <input type="text" placeholder="Имя">
-                        <input type="text" placeholder="Номер телефона">
-                        <input type="email" placeholder="E-mail">
-                        <input type="submit" class="submit">
+                    <form id="form-contact" method="POST" class="contact-form">
+                        <input type="text" placeholder="Имя" name="name">
+                        <input type="text" placeholder="Номер телефона" name="phone">
+                        <input type="email" placeholder="E-mail" name="email">
+                        <input name="theme" type="hidden" class="contact-form__input contact-form__input_theme"  value="Заявка с сайта">
+                        <p class="contact-form__message"></p>
+                        <input type="submit" class="submit" value="Отправить">
                     </form>
                 </div>
 
@@ -234,7 +236,7 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="/telegramform/js/telegramform.js"></script>
+    <script src="telegramform.js"></script>
 
 </body>
 </html>
