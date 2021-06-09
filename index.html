@@ -237,6 +237,15 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="telegramform.js?version=2"></script>
+    <script>
+       $('a[href^="#"').on('click', function() {
+        let href = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop: $(href).offset().top
+        });
+        return false;
+        });
+    </script>
 
 </body>
 </html>
