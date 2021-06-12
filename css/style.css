@@ -269,3 +269,27 @@ footer {
     color: white;
     text-decoration: none;
 }
+
+/*---------------------header__top__mobile--------------------*/
+
+.header__top__mobile {
+    background-color: black;
+    color: white;
+}
+
+.header__top__mobile .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__top__mobile .container img {
+    max-width: 40px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.header__top__mobile__links {
+    display: flex;
+    flex-wrap: nowrap;
+}
